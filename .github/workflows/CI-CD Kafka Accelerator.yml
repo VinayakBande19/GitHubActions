@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  CI Kafka Accelerator:
+  build:
 
     runs-on: ubuntu-latest
 
