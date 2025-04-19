@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  CI Kafka Accelerator:
 
     runs-on: ubuntu-latest
 
@@ -28,5 +28,5 @@ jobs:
     - name: Docker 
       run: echo Docker Image Build Completed Successfully !!
 
-    - name: Artifact 
+    - name: Artifacts Publish 
       run: echo Artifact Published Successfully !!
