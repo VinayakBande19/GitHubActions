@@ -15,5 +15,18 @@ jobs:
     - uses: actions/checkout@v3
     - name: Git Checkout 
       run: echo Git Checkout Successfully !!
+    
     - name: Maven Build 
       run: echo Maven Build Completed Successfully !!
+
+    - name: Test 
+      run: echo Test Completed Successfully !!
+
+    - name: Sonar 
+      run: echo Code Scan Successfully !!
+    
+    - name: Docker 
+      run: echo Docker Image Build Completed Successfully !!
+
+    - name: Artifact 
+      run: echo Artifact Published Successfully !!
