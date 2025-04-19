@@ -30,3 +30,15 @@ jobs:
 
     - name: Artifacts Publish 
       run: echo Artifact Published Successfully !!
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Helm ArgoCD Sync 
+      run: echo Helm ArgoCD Synced Successfully !!
+    
+    - name: Pod Validation 
+      run: echo Pod Validation Completed Successfully !!
